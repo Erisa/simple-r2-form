@@ -14,7 +14,7 @@ Setup:
 2. Edit `wrangler.toml` to specify a `bucket_name` and `PUBLIC_BUCKET_URL`
 3. Install things: `npm install`
 4. `npx wrangler deploy`
-5. RECOMMENDED: Implement [Cloudflare Access](https://developers.cloudflare.com/cloudflare-on
+5. **RECOMMENDED**: Implement [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/)
 
 That's all.
 
