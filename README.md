@@ -12,8 +12,9 @@ Setup:
 
 1. Clone the repository (duh)
 2. Edit `wrangler.toml` to specify a `bucket_name` and `PUBLIC_BUCKET_URL`
-3. `npx wrangler deploy`
-4. RECOMMENDED: Implement [Cloudflare Access](https://developers.cloudflare.com/cloudflare-on
+3. Install things: `npm install`
+4. `npx wrangler deploy`
+5. RECOMMENDED: Implement [Cloudflare Access](https://developers.cloudflare.com/cloudflare-on
 
 That's all.
 
