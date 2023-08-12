@@ -1,0 +1,12 @@
+name = "simple-r2-form"
+main = "src/worker.ts"
+compatibility_date = "2023-08-12"
+
+[vars]
+PUBLIC_BUCKET_URL="https://multi-render.erisa.workers.dev"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "kot"
+preview_bucket_name = "kot"
+
